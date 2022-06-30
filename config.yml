@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: CorpDK Services Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.corpdk.com/
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
+    - name: Website
+      description: Web Services of CorpDK.
+    - name: 3rd Party Services
+      description: 3rd Party Services used.
     - name: Uncategorized
       untitled: true
 
@@ -158,20 +158,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: CV
+      description: CV.
+      category: Website
+      link: https://cv.corpdk.com/
 
   # What date format to use?
   #
@@ -377,7 +367,7 @@ params:
   # the value to the default:
   #
   # Default: UA-00000000-1
-  googleAnalytics: UA-00000000-1
+  googleAnalytics: G-FVXXW7P62C
 
 # These options affect the core of cState.
 # Please do not change them if you do not
